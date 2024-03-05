@@ -1,0 +1,453 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> 
+	<title>My Portfolio website</title> 
+	<link rel="stylesheet"
+		href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+	<link rel="stylesheet" href="style.css"> 
+	<link rel="stylesheet" href="response.css"> 
+</head> 
+
+<body> 
+	<!-- Navbar header section -->
+	<header class="header"> 
+		<nav class="navbar"> 
+			<div class="logo"> 
+				<h2 class="logo-heading">Moses Nnaji</h2> 
+			</div> 
+			<div class="hamburger" id="hamburger"> 
+				<i class="fas fa-bars hamburger-icon"></i> 
+				<i class="fas fa-times cross-icon"></i> 
+			</div> 
+			<div class="menu"> 
+				<ul class="menu-list"> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#home"> 
+							Home 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#portfolio"> 
+							Portfolio 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#about"> 
+							About 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#services"> 
+							Services 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#contact"> 
+							Contact Me 
+						</a> 
+					</li> 
+				</ul> 
+			</div> 
+		</nav> 
+	</header> 
+
+	<!-- Main hero banner -->
+	<section id="home" class="hero"> 
+		<div class="intro"> 
+			<div class="headings"> 
+				<h3 class="greet-heading">Hello, I'm</h3> 
+				<h1 class="my-heading">Moses Nnaji O.</h1> 
+				<h4 class="sub-heading"> 
+					A Content writer on Upwork, Fiverr & Software Engineer with 3 years of Experience. 
+				</h4> 
+			</div> 
+			<div class="intro-buttons"> 
+				<button class="btn common-btn">Hire Me</button> 
+				<button class="btn ghost-btn">Get Resume</button> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Portfolio Section -->
+	<section class="portfolio" id="portfolio"> 
+		<div class="portfolio-heading"> 
+			<h1 class="my-heading text-center">Featured Portfolio</h1> 
+		</div> 
+		<div class="portfolio-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="web design.jpg"
+								alt="Web Design Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text">Web Design</h3> 
+						<p class="small-para blue-text">Designing</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="web dev.jpg"
+								alt="Web Development Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Web Development 
+						</h3> 
+						<p class="small-para blue-text">Development</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="pexels-pixabay-270637.jpg"> 
+						</div> 
+						<h3 class="greet-heading blue-text">SEO</h3> 
+						<p class="small-para blue-text">Optimization</p> 
+					</div> 
+				</div> 
+			</div> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="content writing.jpg"
+								alt="Content Writting Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Content Writing 
+						</h3> 
+						<p class="small-para blue-text">Writing</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="amazon.jpg"
+								alt="Amazon ebook writer"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Amazone Kindle Expert
+						</h3> 
+						<p class="small-para blue-text"> 
+							Ebook specialist 
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="video edit.jpg"
+								alt="Video Editing Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Video Editing 
+						</h3> 
+						<p class="small-para blue-text">Editing</p> 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- About Section -->
+	<section id="about" class="about"> 
+		<div class="about-text"> 
+			<h1 class="my-heading">About Me</h1> 
+			<p class="lead-para"> 
+               
+                Greetings! <br> I'm Moses Nnaji, a versatile web developer and content writer thriving in the dynamic world of freelance work, predominantly on platforms like Upwork and Fiverr. With a passion for crafting compelling digital experiences and engaging written content, I bring a unique blend of technical expertise and creative flair to every project I undertake.
+                
+                As a web developer, I specialize in building responsive and user-friendly websites that not only meet but exceed client expectations. With proficiency in various programming languages and frameworks, including HTML, CSS, JavaScript, and React, I ensure that each website I create is not just aesthetically pleasing but also functional and efficient.
+                
+                In the realm of content writing, I wield words with precision and creativity to deliver captivating narratives, informative articles, and persuasive copy. Whether it's SEO-optimized website content, engaging blog posts, or polished product descriptions, I have the skills to craft content that resonates with audiences and drives results.
+                
+                What sets me apart is my commitment to excellence, attention to detail, and dedication to meeting deadlines. I understand the importance of clear communication and collaboration, and I always strive to ensure that my clients are satisfied with the final outcome.
+                
+                Outside of work, I am an avid learner, constantly seeking to expand my knowledge and skills to stay ahead in the ever-evolving fields of web development and content writing. When I'm not immersed in code or crafting content, you can find me exploring new technologies, honing my writing craft, or simply enjoying the great outdoors.
+                
+                If you're in need of a reliable and talented web developer or content writer for your next project, I'd love to chat and see how I can help bring your vision to life. Let's collaborate and create something extraordinary together!
+			</p> 
+			 
+		</div> 
+		<div class="about-image"> 
+			<img src="author - Copy.jpeg" alt="About Image"> 
+		</div> 
+	</section> 
+
+	<!-- Services Section -->
+	<section class="services" id="services"> 
+		<div class="services-heading"> 
+			<h1 class="my-heading">My Services</h1> 
+		</div> 
+		<div class="services-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-paint-brush"></i> 
+						</div> 
+						<h3 class="my-heading">Web Design</h3> 
+						<p class="small-para"> 
+                            As a web designer, you offer a range of skills and services to help clients establish or enhance their online presence. Here's a brief overview of what you can provide:
+                            1. **Custom Website Design
+                            2. **Responsive Design
+                            4. **Graphic Design
+                            5. **HTML/CSS Development
+                            6. **Content Management Systems (CMS)
+                            7. **Search Engine Optimization (SEO)
+                            8. **Maintenance and Support
+                            9. **Consultation and Collaboration
+                            Overall, as a web designer, you provide comprehensive design solutions that combine creativity, technical expertise, and strategic thinking to help clients achieve their online goals and stand out in the digital landscape.
+                            
+                            
+						</p> 
+						<p class="small-para"> 
+                            Find me on fiverr @Moscow_042 <br>
+                            Upwork @Moses
+                            on Gits @moscow_dev
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fa-solid fa-code"></i> 
+						</div> 
+						<h3 class="my-heading"> 
+							Ebook Writer  
+						</h3> 
+						<p class="small-para"> 
+                            "Ready to bring your book idea to life? Let's 
+                            turn your vision into a captivating ebook 
+                            that resonates with readers worldwide. With my 
+                            expertise in crafting engaging content and navigating 
+                            the intricacies of Amazon's publishing platform, 
+                            together we can make your dream of becoming a
+                             published author a reality. Don't let your
+                             story go untold – take the first step today and unlock the
+                             potential of your manuscript. Click below
+                              to schedule a consultation and let's embark on this exciting journey together!"
+						</p> 
+						<p class="small-para"> 
+                            Find me on fiverr @Moscow_042 <br>
+                            Upwork @Moses
+                            on Gits @moscow_dev <br>
+                            on Amazon @Moses Nnaji
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-chart-line"></i> 
+						</div> 
+						<h3 class="my-heading">SEO</h3> 
+						<p class="small-para"> 
+                            "Ready to boost your online presence and skyrocket
+                             your rankings? Let's optimize your website for 
+                             search engines and attract more traffic, leads,
+                              and sales. With my proven expertise in SEO writing
+                               and meticulous attention to keyword research and 
+                               optimization, I'll help your content stand out in
+                               the digital landscape. Don't let your competitors steal 
+                               the spotlight – take action now and elevate your
+                             brand to new heights. Hire me on Upwork or Fiverr 
+                             today and let's start climbing the search engine ranks together!"
+						</p> 
+						<p class="small-para"> 
+                            Find me on fiverr @Moscow_042 <br>
+                            Upwork @Moses
+                            on Gits @moscow_dev <br>
+                            on Amazon @Moses Nnaji
+						</p> 
+					</div> 
+				</div> 
+			</div> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-quote-left"></i> 
+						</div> 
+						<h3 class="my-heading"> 
+							Content Writting 
+						</h3> 
+						<p class="small-para"> 
+                             Are you seeking captivating content that not only captures
+                             attention but also drives results? Look no further. I'm a 
+                             seasoned content writer with over 5years of experience 
+                             crafting compelling narratives across various industries.
+                             My expertise lies in producing high-quality content that 
+                             resonates with target audiences and boosts engagement metrics.
+						</p> 
+						<p class="small-para"> 
+						  Find me on fiverr @Moscow_042 <br>
+                          Upwork @Moses
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fab fa-wordpress-simple"></i> 
+						</div> 
+						<h3 class="my-heading"> 
+							React Dev 
+						</h3> 
+						<p class="small-para"> 
+                            As a React developer, I offer expertise in building
+                             interactive and dynamic user interfaces for web applications. 
+                             Leveraging the power of React, a popular JavaScript library 
+                             developed by Facebook, I can bring your vision to life with
+                              seamless and efficient front-end development. 
+                              Here's what you can expect from my services:
+                            1.	Proficiency in React
+                            2.	Component-Based Architecture 
+                            3.	Responsive Design
+                            4.	Integration with APIsTesting and Debugging
+                          
+                            
+						</p> 
+						<p class="small-para"> 
+							Find me on fiverr @Moscow_042 <br>
+                          Upwork @Moses
+                          on Gits @moscow_dev
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-video"></i> 
+						</div> 
+						<h3 class="my-heading"> 
+							Video Editing 
+						</h3> 
+						<p class="small-para"> 
+                            As a skilled video editor, I bring creativity, precision, and
+                             technical expertise to every project I undertake. With a keen
+                              eye for detail and a passion for storytelling, 
+                            I offer comprehensive video editing services 
+                            tailored to meet your unique needs. Here's what you can expect from my services:
+                            1. Professional Editing
+                            2. Creative Enhancement
+                            3. Audio Enhancement
+                            4. Customization and Branding
+                            5. Efficiency and Timeliness
+                            
+						</p> 
+						<p class="small-para"> 
+                            Find me on fiverr @Moscow_042 <br>
+                            Upwork @Moses
+                            on Gits @moscow_dev	
+						</p> 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Contact me section -->
+	<section class="contact" id="contact"> 
+		<div class="contact-heading"> 
+			<h1 class="my-heading text-center">Contact Me</h1> 
+		</div> 
+		<div class="contact-content"> 
+			<div class="contact-form-container"> 
+				<h1 class="greet-heading">Get In Touch</h1> 
+				<form class="contact-form"> 
+					<input class="form-controls" type="text"
+						placeholder="Your Name"> 
+					<input class="form-controls" type="text"
+						placeholder="Your Email"> 
+					<input class="form-controls" type="text"
+						placeholder="Your Phone"> 
+					<textarea class="form-controls"
+							placeholder="Write your message"
+							name="message" id="" cols="30"
+							rows="10"> 
+					</textarea> 
+					<input class="form-btn btn common-btn"
+						type="submit" value="Send Message"> 
+				</form> 
+			</div> 
+			<div class="contact-details"> 
+				<h1 class="greet-heading">My Contact Details</h1> 
+				<div class="details"> 
+					<h5 class="contact-heading">EMAIL</h5> 
+					<p class="contact-text">ogomegbunamnnaji@gmail.com</p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-heading">PHONE</h5> 
+					<p class="contact-text">+234 7062943615</p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-heading">FAX</h5> 
+					<p class="contact-text">+234 7062943615</p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-heading">ADDRESS</h5> 
+					<p class="contact-text">New York City</p> 
+					<p>9th Floor2 </p> 
+					<p>Dans avenue</p> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Footer section -->
+	<footer class="footer"> 
+		<div class="footer-content text-center"> 
+			<h4> 
+				Copyright © 2023 All rights reserved | 
+				This portfolio website template is created 
+				by Moses Nnaji 
+			</h4> 
+			<div class="social-links"> 
+				<div class="footer-menu"> 
+					<ul class="footer-menu-list"> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-facebook-f"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-twitter"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-instagram"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-linkedin-in"></i> 
+							</a> 
+						</li> 
+					</ul> 
+				</div> 
+			</div> 
+		</div> 
+	</footer> 
+
+	<script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+		integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"> 
+	</script> 
+	<script src="app.js"></script> 
+</body> 
+
+</html>
